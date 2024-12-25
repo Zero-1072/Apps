@@ -1,7 +1,15 @@
 #include <iostream>
-
+#include<stdlib>
+#include<ctime>
+using namespace std;
 int main()
 {
-    std::cout << "This is our first project";
-    return 0;
+    cout << "***This is our first project!***" << endl;
+    srand(time(0));
+
+    int SecNum = 0 + rand() % (100 - 0 + 1);
+
+
+    cout << "guess one number";
+
 }
