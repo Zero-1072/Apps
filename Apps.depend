@@ -1,7 +1,13 @@
 # depslib dependency file v1.0
-1735193768 source:d:\workspace\repositories\apps\apps\apps.cpp
+1735232447 source:d:\workspace\repositories\apps\apps\apps.cpp
 	<iostream>
 	<stdlib.h>
 	<ctime>
 	<ios>
+	"../include/game.h"
+
+1735232461 source:d:\workspace\repositories\apps\apps\game.cpp
+	<iostream>
+
+1735232269 d:\workspace\repositories\apps\include\game.h
 

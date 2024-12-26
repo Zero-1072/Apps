@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<ctime>
 #include<ios>
+#include"../include/game.h"
 
 using namespace std;
 
@@ -44,7 +45,6 @@ int process(int SecNum)
 
 int main()
 {
-
     cout << "***This is our first project!***" << endl;
     srand(time(0));
 
