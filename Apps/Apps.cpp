@@ -30,11 +30,6 @@ int TakeAGuess(int CorrectNo)
     return 1;
 }
 
-void AwaitGameStart()
-{
-
-}
-
 int main()
 {
     int x = 0;
