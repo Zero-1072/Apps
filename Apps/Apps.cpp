@@ -5,11 +5,7 @@
 
 using namespace std;
 
-int gameOn = 0;
-int attempts = 10;
-int SecNum = 0;
-
-int TakeAGuess(int CorrectNo)
+int TakeAGuess(int CorrectNo, int attempts)
 {
     int g_number = 0;
     cin >> g_number;
@@ -36,15 +32,19 @@ int TakeAGuess(int CorrectNo)
     return 1;
 }
 
-int process()
+int process(int SecNum, int attempts)
 {
-	int result = TakeAGuess(SecNum);
- 	gameOn = result;
+	int result = TakeAGuess(SecNum, attempts);
+ 	return result;
 }
 
 int main()
 {
-    
+
+    int gameOn = 0;
+    int attempts = 10;
+    int SecNum = 0;
+
     cout << "***This is our first project!***" << endl;
     srand(time(0));
 
@@ -52,10 +52,14 @@ int main()
 
     cout << "Guess a number" << endl;
 
+
+
     while(gameOn == 0)
     {
-        process();
+        int frame = process(SecNum, attempts);
+        gameOn = frame;
     }
+    return 0;
 
 }
 
