@@ -55,7 +55,7 @@ int main()
 
     SecNum = 0 + rand() % (100 - 0 + 1);
     cout << "---welcome to the guessing game---\n";
-    cout << " press any key to start the game^^ \n";
+    cout << " Press Enter to start the game^^ \n";
     cin.get();
     system("cls");
     cout << " Now guess a number between 0 to 100 " << endl;
