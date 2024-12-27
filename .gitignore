@@ -368,3 +368,5 @@ MigrationBackup/
 FodyWeavers.xsd
 Apps.depend
 *.depend
+*.layout
+Apps.layout
